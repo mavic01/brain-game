@@ -1,0 +1,15 @@
+body {
+    background-image: url('images/BGI1.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover; 
+    
+}
+
+.grid {
+    
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
+
