@@ -9,7 +9,8 @@ body {
      );
     background-size: cover;  */
 
-    background-image: linear-gradient(to right, rgba(206, 203, 19, 0), rgb(216, 219, 29));
+    background-color: gold;
+    align-items: center;
     
 }
 
@@ -20,5 +21,20 @@ body {
     height: 300px;
     width: 400px;
     margin: 20px auto;
+    align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+   .grid {
+        margin: 20px auto;
+        background-color: rgb(185, 47, 12);
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .grid {
+        margin: 20px auto;
+    }
+  }
 
