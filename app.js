@@ -65,6 +65,7 @@ var cardsWon = []
 function createBoard(){
     for (let i = 0; i < cardss.length; i++){
         var card = document.createElement('img')
+        // card.style.cssFloat = "right"
         card.setAttribute('src', 'images/blank.jpg')
         card.setAttribute('data-id', i)
         card.addEventListener('click', flipCard)

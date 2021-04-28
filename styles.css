@@ -1,40 +1,28 @@
 body {
-    /* background-image: url('images/BGI1.jpg');
-    background-repeat: no-repeat, repeat; */
-
-        /* background-image: linear-gradient(
-        0deg,
-     rgb(247, 247, 247) 23.8%,
-     rgb(177, 187, 41) 92%
-     );
-    background-size: cover;  */
-
-    background-color: gold;
+    background-color: #1e1f20;
     align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
     
 }
 
-.grid {
-    
+h3 {
+    color: rgb(236, 17, 17);
+}
+
+#result{
+    color:green;
+}
+
+.grid { 
     display: flex;
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
-    margin: 20px auto;
+    padding-top: 50px;
+    margin: auto;
     align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
-    /* For mobile phones: */
-   .grid {
-        margin: 20px auto;
-        background-color: rgb(185, 47, 12);
-    }
-  }
 
-  @media only screen and (min-width: 768px) {
-    .grid {
-        margin: 20px auto;
-    }
-  }
 
